@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>whar</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="tutorial">
+    <p>
+      <b>WASD</b> to move | <b>Space</b> to sprint | <b>LMB</b> to shoot <br>
+      <i>Tools</i> <br>
+      <b>E</b> to take damage | <b>F</b> to spawn enemy | <b>L</b> to spawn consumable | <b>B</b> to spawn bits | <b>P</b> to heal<br>
+    </p>
+  </div>
+  <div id="gameContainer">
+    <canvas id="gameCanvas" width="1000" height="600"></canvas>
+    <div id="overlay"></div>
+  </div>
+  <div id="enemyStats">
+    <span class="hoverToSee"><p><b>Hover over objects to see info</b></p></span>
+  </div>
+  <div id="playerStats"></div>
+  <canvas id="hpbarCanvas" width="600" height="20"></canvas> 
+  <div id="message"></div>
+  <div id="deathbits"></div>
+  <script src="script.js"></script>
+</body>
+</html>
