@@ -1,0 +1,92 @@
+html, body {
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #888899;
+}
+#message, #deathbits {
+  color: rgb(40, 40, 60);
+  font-size: 48px;
+  font-family: Arial;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas#gameCanvas {
+  border: 8px solid rgb(20, 20, 50);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+canvas#hpbarCanvas {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+div#tutorial {
+  padding-bottom: 10px;
+  color: rgb(40, 40, 60);
+  font-size: 24px;
+  font-family: Arial;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#gameContainer {
+  position: relative;
+}
+
+div#overlay {
+  margin-top: 5%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 24px;
+  font-family: Arial;
+  padding: 24px;
+  padding-right: 96px;
+}
+
+.type {
+  color: rgb(160, 160, 240)
+}
+.bits {
+  color: rgb(240, 200, 120)
+}
+.hoverToSee {
+  color: white
+}
+
+
+#enemyStats {
+  position: absolute;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+  padding: 24px;
+  width: 160px;
+  height: 160px;
+  display: block;
+}
+
+button {
+  font-size:24px;
+  margin-left:128px;
+}
+
+#deathbits {
+  font-size: 16px;
+}
+* {
+  user-select: none;
+}
